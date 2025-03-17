@@ -1,0 +1,7 @@
+cd /chemin/de/ton/projet  # Remplace avec le bon chemin de ton projet
+git init
+git add .
+git commit -m "Premier commit"
+git branch -M main
+git remote add origin https://github.com/ton-utilisateur/mon-application.git  # Mets ton vrai lien ici
+git push -u origin main
